@@ -1,5 +1,5 @@
 config SHIELD_DACTYLFLOLA_L
-    def_bool $(shields_list_contains, dactylFloLa_l)
+    def_bool $(shields_list_contains,dactylFloLa_l)
 
 config SHIELD_DACTYLFLOLA_R
-    def_bool $(shields_list_contains, dactylFloLa_r)
+    def_bool $(shields_list_contains,dactylFloLa_r)
