@@ -35,7 +35,7 @@
 &out OUT_TOG  &bt  BT_CLR   &bt  BT_NXT   &bootloader   &sys_reset    &trans                  &trans        &trans        &trans        &bootloader   &sys_reset    &trans
 &out OUT_BLE  &trans        &trans        &trans        &trans        &trans                  &trans        &trans        &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans        &trans                  &trans     &kp LEFT_BRACKET &trans        &kp SEMICOLON &trans        &trans
-&trans        &kp  AT_SIGN  &trans        &trans        &trans        &trans                  &trans        &trans        &trans        &trans        &trans        &trans
+&trans        &kp  SINGLE_QUOTE &trans        &trans        &trans        &trans                  &trans        &trans        &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans        &trans                  &trans        &trans        &trans        &trans        &trans        &trans
                             &trans        &trans                                                            &trans        &trans
                                         &trans   &trans   &trans                                         &trans   &trans   &trans
