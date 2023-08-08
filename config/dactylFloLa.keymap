@@ -47,7 +47,7 @@
 &out OUT_TOG  &bt  BT_CLR   &bt  BT_NXT   &bootloader   &sys_reset    &trans                  &trans        &trans        &trans        &bootloader   &sys_reset    &trans
 &out OUT_BLE  &trans        &trans        &trans        &trans        &trans                  &trans        &trans        &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans        &trans                  &trans        &trans        &trans        &trans        &trans        &trans
-&trans        &trans        &trans        &trans        &trans        &trans                  &trans        &kp LEFT_ARROW &kp UP_ARROW  &kp RIGHT_ARROW &trans        &trans
+&trans        &trans        &trans        &trans        &kp  NUBS     &trans                  &trans        &kp LEFT_ARROW &kp UP_ARROW  &kp RIGHT_ARROW &trans        &trans
 &trans        &trans        &trans        &trans        &trans        &trans                  &trans    &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans        &trans
                             &trans        &trans                                                            &trans        &trans
                                         &trans   &trans   &trans                                         &trans   &trans   &trans
