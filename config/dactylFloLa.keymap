@@ -14,8 +14,9 @@
 #define NAV_LAYER   2
 
 
+
 / {
-    macros {
+        macros {        
         alt_60_numpad_macro: alt_60_numpad_macro {
             label = "ZM_alt_60_numpad_macro";
             compatible = "zmk,behavior-macro";
@@ -27,11 +28,6 @@
                 ;
         };
     };
-};
-
-
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
