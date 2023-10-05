@@ -25,8 +25,7 @@
                 , <&macro_tap &kp NUM_6 &kp NUM_0>
                 , <&macro_release &kp LALT>
                 ;
-        };
-        macros {        
+        };       
         alt_62_numpad_macro: alt_62_numpad_macro {
             label = "Greater_than";
             compatible = "zmk,behavior-macro";
