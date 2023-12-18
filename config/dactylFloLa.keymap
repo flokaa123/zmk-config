@@ -36,6 +36,16 @@
                 , <&macro_release &kp LALT>
                 ;
         };
+        alt_124_numpad_macro: alt_124_numpad_macro {
+            label = "Pipe";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N4>
+                , <&macro_release &kp LALT>
+                ;
+        };
 };
 };
 
@@ -51,7 +61,7 @@
 &kp  TAB      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                  &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  RIGHT_BRACKET
 &kp  ESC      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                  &kp  H        &kp  J        &kp  K        &kp  L        &kp  RA(N8)   &kp  RA(N9)
 &kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B                  &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  NUHS
-                        &alt_60_numpad_macro &alt_62_numpad_macro                                                               &kp  UP_ARROW  &kp  RIGHT_ARROW
+                        &alt_60_numpad_macro &alt_62_numpad_macro                                                               &alt_124_numpad_macro  &none
                                 &kp  RIGHT_ALT &kp  RETURN &kp  LEFT_CONTROL                  &mo  NAV_LAYER &kp  SPACE &kp  BACKSPACE
                                         &kp LEFT_WIN &mo  GER_LAYER                             &kp  LEFT_ALT &kp  LEFT_ALT
                         >;
