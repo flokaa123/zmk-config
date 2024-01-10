@@ -56,11 +56,11 @@
 
                 default_layer {
                         bindings = <
-&kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5       &kp  F6                 &kp  F7       &kp  F8       &kp  F9       &kp  F10      &kp  F11      &kp  F12
-&kp  CARET    &kp  N1       &kp  N2       &kp  N3       &kp  N4       &kp  N5                 &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  MINUS
-&kp  TAB      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                  &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  RIGHT_BRACKET
-&kp  ESC      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                  &kp  H        &kp  J        &kp  K        &kp  L        &kp  RA(N8)   &kp  RA(N9)
-&kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B                  &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  NUHS
+&kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5       &kp  F6                 &kp  F7       &kp  F8       &kp  F9       &kp  F10      &kp  F11        &kp  F12
+&kp  CARET    &kp  N1       &kp  N2       &kp  N3       &kp  N4       &kp  N5                 &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0         &kp  MINUS
+&kp  TAB      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                  &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P          &kp  RIGHT_BRACKET
+&kp  ESC      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                  &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMICOLON  &kp  SINGLE_QUOTE
+&kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B                  &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH      &kp  NUHS
                         &alt_60_numpad_macro &alt_62_numpad_macro                                                               &alt_124_numpad_macro  &none
                                 &kp  RIGHT_ALT &kp  RETURN &kp  LEFT_CONTROL                  &mo  NAV_LAYER &kp  SPACE &kp  BACKSPACE
                                         &kp LEFT_WIN &mo  GER_LAYER                             &kp  LEFT_ALT &kp  LEFT_ALT
